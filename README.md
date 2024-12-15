@@ -44,7 +44,7 @@
 ## 1. Create Rebate Program
 
 ### Endpoint
-`POST http://127.0.0.1:8000/api/create-rebate-program/`
+**POST** `http://127.0.0.1:8000/api/create-rebate-program/`
 
 ### Request Body
 ```json
@@ -76,7 +76,7 @@
 ## 2. Submit Transaction
 
 ### Endpoint
-`POST http://127.0.0.1:8000/api/submit-transaction/`
+**POST** `http://127.0.0.1:8000/api/submit-transaction/`
 
 ### Request Body
 ```json
@@ -106,7 +106,7 @@
 ## 3. Claim Rebate
 
 ### Endpoint
-`POST http://127.0.0.1:8000/api/claim-rebate/`
+**POST** `http://127.0.0.1:8000/api/claim-rebate/`
 
 ### Request Body
 ```json
@@ -146,7 +146,7 @@
 ## 4. Generate Rebate Report
 
 ### Endpoint
-`POST http://127.0.0.1:8000/api/rebate-report/`
+**POST** `http://127.0.0.1:8000/api/rebate-report/`
 
 ### Request Body
 ```json
@@ -170,7 +170,7 @@
 ## 5. Calculate Rebate for a Transaction
 
 ### Endpoint
-`GET http://127.0.0.1:8000/api/calculate-rebate/TXN123/`
+**GET** `http://127.0.0.1:8000/api/calculate-rebate/TXN123/`
 
 ### Expected Response
 #### Success Response
