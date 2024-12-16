@@ -35,7 +35,8 @@
    python .\manage.py runserver
    ```
 
-----
+---
+---
 
 # API Documentation
 
@@ -179,6 +180,7 @@
 }
 ```
 
+---
 ---
 
 ## Suggestions on how to make the system scalable and efficient in a production environment:
