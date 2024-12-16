@@ -20,9 +20,15 @@
 ## Local Setup
 
 1. Install the following prerequisites:
-   - Python (version 3.13.1)
+   - Python (version 3.13.1) 
    - Django
-   - djangorestframework
+   ```bash
+   pip install django
+   ```
+   - djangorestframework 
+   ```bash
+   pip install djangorestframework
+   ```
 
 2. Apply migrations:
    ```bash
