@@ -22,13 +22,13 @@
 1. Install the following prerequisites:
    - Python (version 3.13.1) 
    - Django
-   ```bash
-   pip install django
-   ```
+      ```bash
+      pip install django
+      ```
    - djangorestframework 
-   ```bash
-   pip install djangorestframework
-   ```
+     ```bash
+      pip install djangorestframework
+     ```
 
 2. Apply migrations:
    ```bash
