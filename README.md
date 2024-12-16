@@ -35,9 +35,7 @@
    python .\manage.py runserver
    ```
 
-
-
-
+----
 
 # API Documentation
 
