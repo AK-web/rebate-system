@@ -181,20 +181,20 @@
 }
 ```
 
+---
 
+## Suggestions on how to make the system scalable and efficient in a production environment:
 
-# Suggestions on how to make the system scalable and efficient in a production environment:
-
-## 1. Optimize Database and Queries
+### 1. Optimize Database and Queries
 ### 
 Add indexes on `created_at` and other frequently filtered fields. Use efficient date filtering `(created_at__gte, created_at__lte)` instead of converting to date.
-## 2. Implement Caching
+### 2. Implement Caching
 #### 
 Cache API responses for commonly queried date ranges using Django’s caching framework.Use HTTP caching headers (ETag, Last-Modified) to reduce redundant client requests.
-## 3. Scale Infrastructure
+### 3. Scale Infrastructure
 #### 
 Deploy behind a load balancer and use auto-scaling to handle high traffic. Use containerized solutions (e.g., Docker, Kubernetes) for horizontal scaling.
-## 4. Enhance API Efficiency
+### 4. Enhance API Efficiency
 #### 
 Restrict the date range for queries to prevent large dataset processing. Offload heavy computations to asynchronous workers (e.g., Celery with Redis).
 
