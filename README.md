@@ -21,11 +21,11 @@
 
 1. Install the following prerequisites:
    - Python (version 3.13.1) 
-   - Django
+   - Django:
       ```bash
       pip install django
       ```
-   - djangorestframework 
+   - djangorestframework:
      ```bash
       pip install djangorestframework
      ```
